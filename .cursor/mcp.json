@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--access-token",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRmemhsY2ljb2x1a2R5bnplanB2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM4NTk4MDYsImV4cCI6MjA1OTQzNTgwNn0.8WCISEDdp8AZ-Ueg00-_OtcX7M_u5QN95j7DJm6A8ds"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
+      }
+    }
+  }
+}

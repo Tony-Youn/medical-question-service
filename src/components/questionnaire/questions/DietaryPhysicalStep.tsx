@@ -9,7 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
 import { CheckboxGroup } from "@/components/ui/checkbox";
 import { DietaryPhysicalData } from "@/lib/types";
-import { FormCard } from "@/components/questionnaire/FormCard";
+import FormCard from "@/components/questionnaire/FormCard"
 
 const DietaryPhysicalStep: React.FC = () => {
   const { data, updateResponse } = useQuestionnaireStore();

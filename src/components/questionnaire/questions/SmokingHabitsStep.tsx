@@ -13,7 +13,7 @@ import {
 import { RadioGroup } from "@/components/ui/radio-group-adapter";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { FormCard } from "@/components/questionnaire/FormCard";
+import FormCard from "@/components/questionnaire/FormCard"
 import { useQuestionnaireStore } from "@/lib/store/questionnaire";
 
 const SmokingHabitsStep: React.FC = () => {

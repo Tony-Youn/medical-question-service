@@ -13,7 +13,7 @@ import {
   YesNoAnswer,
   InterestLevel,
 } from "@/lib/enums/questionnaire";
-import { FormCard } from "@/components/questionnaire/FormCard";
+import FormCard from "@/components/questionnaire/FormCard"
 
 const BasicInfoStep: React.FC = () => {
   const { data, updateResponse } = useQuestionnaireStore();

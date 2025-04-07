@@ -19,8 +19,7 @@ export default async function QuestionnairePage() {
       <div className="container mx-auto">
         <h1 className="text-3xl font-bold text-center mb-8">치과 문진표</h1>
         <p className="text-gray-600 mb-8 text-center">
-          아래 질문에 모두 답변해 주시기 바랍니다. 환자의 건강 상태를 더 잘
-          이해하는 데 도움이 됩니다.
+          아래 질문에 모두 답변해 주시기 바랍니다.
         </p>
         <QuestionnaireForm />
       </div>

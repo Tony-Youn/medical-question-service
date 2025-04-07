@@ -39,15 +39,6 @@ export async function middleware(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  // For this app, we don't require authentication for most routes
-  // Only redirect if trying to access protected routes
-  if (!user && request.nextUrl.pathname.startsWith("/dashboard")) {
-    // no user, redirect to the login page if trying to access protected routes
-    const url = request.nextUrl.clone();
-    url.pathname = "/login";
-    return NextResponse.redirect(url);
-  }
-
   // IMPORTANT: You *must* return the supabaseResponse object as it is.
   return supabaseResponse;
 }

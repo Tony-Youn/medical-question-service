@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { RadioGroup } from "@/components/ui/radio-group-adapter";
 import { useQuestionnaireStore } from "@/lib/store/questionnaire";
 import { YesNoAnswer } from "@/lib/enums/questionnaire";
-import { FormCard } from "@/components/questionnaire/FormCard";
+import FormCard from "@/components/questionnaire/FormCard"
 import { MedicalHistoryData } from "@/lib/types";
 
 const MedicalHistoryStep: React.FC = () => {

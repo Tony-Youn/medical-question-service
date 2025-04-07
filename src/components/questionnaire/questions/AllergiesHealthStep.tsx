@@ -8,7 +8,7 @@ import { CheckboxGroup } from "@/components/ui/checkbox";
 import { useQuestionnaireStore } from "@/lib/store/questionnaire";
 import { YesNoAnswer } from "@/lib/enums/questionnaire";
 import { AllergiesHealthData } from "@/lib/types";
-import { FormCard } from "@/components/questionnaire/FormCard";
+import FormCard from "@/components/questionnaire/FormCard"
 
 const AllergiesHealthStep: React.FC = () => {
   const { data, updateResponse } = useQuestionnaireStore();

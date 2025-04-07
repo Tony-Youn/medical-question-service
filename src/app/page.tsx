@@ -6,11 +6,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-gradient-to-b from-blue-50 to-white">
       <div className="w-full max-w-3xl text-center">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-6">
-          의학 문진표 서비스
+          치아 건강 문진 서비스
         </h1>
         <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-          환자의 의료 정보를 쉽고 효율적으로 수집하여 더 나은 의료 서비스를
-          제공할 수 있도록 도와드립니다.
+          더 나은 진료를 위해 사전 문진을 작성해 주세요.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/questionnaire">
@@ -26,9 +25,6 @@ export default function Home() {
         </div>
         <div className="mt-16 text-sm text-gray-500">
           <p>
-            이 서비스는 환자의 건강 상태를 더 잘 이해하고 개인화된 의료 서비스를
-            제공하기 위해 설계되었습니다.
-            <br />
             모든 정보는 안전하게 암호화되어 저장되며, 의료 서비스 제공
             목적으로만 사용됩니다.
           </p>
